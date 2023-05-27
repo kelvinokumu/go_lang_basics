@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	var number int
-	number = 123
-	fmt.Println(number)
+	var number int      //declaration
+	number = 123        // assignment
+	fmt.Println(number) //display
 }

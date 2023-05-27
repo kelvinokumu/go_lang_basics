@@ -7,7 +7,7 @@ import (
 func main() {
 
 	// defualt is 0
-	var number int64
+	var number int
 	fmt.Println(number)
 
 	// default is 0
