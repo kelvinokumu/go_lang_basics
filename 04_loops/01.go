@@ -7,6 +7,10 @@ import (
 
 func main() {
 	number := 1
+	// for condition{
+	// 	do something
+	// 	increment/decrement
+	// }
 
 	for number <= 5 {
 		fmt.Println(number)
