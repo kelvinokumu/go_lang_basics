@@ -17,6 +17,5 @@ func main() {
 
 		fmt.Printf("%d\n", number)
 		number++
-
 	}
 }

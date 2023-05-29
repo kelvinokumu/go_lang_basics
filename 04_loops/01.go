@@ -12,8 +12,10 @@ func main() {
 	// 	increment/decrement
 	// }
 
-	for number <= 5 {
+	fmt.Println("Before for")
+	for number < 15 {
 		fmt.Println(number)
 		number++
 	}
+	fmt.Println("After for")
 }

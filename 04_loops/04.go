@@ -7,8 +7,8 @@ import "fmt"
 func main() {
 
 	// for loop terminates when i becomes 6
-	for i := 10; i >= 5; i-- {
-		fmt.Println(i)
+	for counter := 10; counter > 5; counter-- {
+		fmt.Println(counter)
 	}
 
 }

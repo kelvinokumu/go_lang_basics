@@ -9,7 +9,9 @@ func main() {
 
 	for i := 1; i <= n; i++ {
 		sum += i // sum = sum + i
+		// fmt.Printf("%d + %d \n", sum, i)
+		fmt.Println("sum =", sum)
 	}
 
-	fmt.Println("sum =", sum)
+	// fmt.Println("sum =", sum)
 }
