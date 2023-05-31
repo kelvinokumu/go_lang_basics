@@ -5,11 +5,12 @@ package main
 import "fmt"
 
 func main() {
-	dayOfWeek := 3
+	dayOfWeek := 1
 
 	switch dayOfWeek {
 	case 1:
 		fmt.Println("Sunday")
+		fallthrough
 
 	case 2:
 		fmt.Println("Monday")

@@ -5,7 +5,7 @@ package main
 import "fmt"
 
 func main() {
-	dayOfWeek := "Sunday"
+	dayOfWeek := "random day"
 
 	switch dayOfWeek {
 	case "Saturday", "Sunday":

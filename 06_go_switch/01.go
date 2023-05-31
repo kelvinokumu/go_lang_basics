@@ -5,7 +5,7 @@ package main
 import "fmt"
 
 func main() {
-	dayOfWeek := 3
+	dayOfWeek := 9
 
 	switch dayOfWeek {
 
