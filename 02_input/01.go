@@ -11,5 +11,5 @@ func main() {
 	reader := bufio.NewReader(os.Stdin)
 	name, _ := reader.ReadString('\n')
 	fmt.Println("The name entered is " + name)
-	// fmt.Println("The name entered is %s", name)
+	fmt.Printf("The name entered is %s", name)
 }
