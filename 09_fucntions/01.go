@@ -3,14 +3,14 @@ package main
 import "fmt"
 
 func main() {
-	greetings()
-	hello()
+	fmt.Println("Start point")
+	for i := 0; i < 5; i++ {
+		greetings()
+	}
+
 }
 
 func greetings() {
-	fmt.Println("Good Morning")
-}
-
-func hello() {
-	fmt.Println("Hello there")
+	morning_greetings := "Good Morning"
+	fmt.Println(morning_greetings)
 }
