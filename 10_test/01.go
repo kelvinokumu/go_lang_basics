@@ -1,21 +1,27 @@
 package main
 
-// code reuse
-// debugging - looking for errors/making sure that the program works as expected
-
-import (
-	"fmt"
-)
-
-// instructions
+// ---------------------------------------------------------
+// EXERCISE: Age Seasons
+//
+//  Let's start simple. Print the expected outputs,
+//  depending on the age variable.
+//
+// EXPECTED OUTPUT
+//  If age is greater than 60, print:
+//    Getting older
+//  If age is greater than 30, print:
+//    Getting wiser
+//  If age is greater than 20, print:
+//    Adulthood
+//  If age is greater than 10, print:
+//    Young blood
+//  Otherwise, print:
+//    Booting up
+// ---------------------------------------------------------
 
 func main() {
-	fmt.Println("Start")
-}
+	// Change this accordingly to produce the expected outputs
+	// age := 10
 
-func getUserInput() {
-	var first_name string
-	first_name = "Kelvin"
-	fmt.Println(first_name)
-
+	// Type your if statement here.
 }
