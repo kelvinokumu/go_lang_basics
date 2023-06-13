@@ -20,6 +20,7 @@ func main() {
 	// var arrayOfInteger = [...]int{1, 5, 8, 0, 3}
 
 	arrayOfInteger := []int{1, 5, 8, 0, 3}
+
 	fmt.Printf("%T \n", arrayOfInteger) // checking the type
 
 	// loop through elements in an array
